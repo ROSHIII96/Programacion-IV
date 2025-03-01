@@ -65,4 +65,5 @@ el valor de 'y' es 5 en vez de 6. Lo que sucede es que se utiliza el incremento 
 asignandolo a la variable y, para luego aumentar en 1 el valor de la variable x dando como resultado 5.
 Por lo tanto, si en vez de console.log(y); utilizamos console.log(x); observaremos que esto es verdad ya que el programa nos 
 retornara 6 en vez de 5 que era el valor inicial de x.
+
 */
