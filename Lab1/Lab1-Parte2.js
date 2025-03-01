@@ -56,7 +56,7 @@ pero este en realidad no tiene un valor numerico coherente.
 let x = 5;
 let y = x++;
 console.log(y);
-/*La respuesta es 5
+/*La respuesta retornada es 5
 -En este caso se pensaria que el valor que muestra el console.log(y) deberia de ser 6 porque le aumentamos 1 al valor de x y se lo asignamos
 a la variable y, pero si observamos el resultado no es correcto.
 Analizando paso a paso el codigo se observa que primero se crea una variable llamada x la cual se le asigna el valor de 5. Luego creamos
@@ -65,5 +65,4 @@ el valor de 'y' es 5 en vez de 6. Lo que sucede es que se utiliza el incremento 
 asignandolo a la variable y, para luego aumentar en 1 el valor de la variable x dando como resultado 5.
 Por lo tanto, si en vez de console.log(y); utilizamos console.log(x); observaremos que esto es verdad ya que el programa nos 
 retornara 6 en vez de 5 que era el valor inicial de x.
-
 */
